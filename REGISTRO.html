@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTRO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 </head>
-<body style="margin: 0; background-color: #527c88; font-family: Arial, sans-serif;">
+<body style="margin: 0; background-color: #527c88; font-family: NunitoSans;">
 
     <header style="background-color: #d7baad; padding: 20px; min-height: 120px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-        <h1 style="margin: 0; text-align: center; color: #2c3e50; font-size: 40px;">Salud Vital</h1>
+        <h1 style="margin: 0; text-align: center; color: #2c3e50; font-size: 40px;font-family: Montserrat;">Salud Vital</h1>
         
         <!--Menu de navegacion entre paginas con una UL-->
         <nav style="margin-top: 30px; display: flex; justify-content: center; align-items: center; width: 100%;">
             <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 70px; font-size: 24px; font-weight: bold;">
                 <li><a href="HOME.html" style="color: #000; text-decoration: none;">Home</a></li>
-                <li><a href="REGISTRO.html" style="color: #000; text-decoration: none; border-bottom: 2px solid #527c88; padding-bottom: 2px;">Registro</a></li>
                 <li><a href="BLOG.html" style="color: #000; text-decoration: none;">Blog</a></li>
+                <li><a href="REGISTRO.html" style="color: #000; text-decoration: none; border-bottom: 2px solid #527c88; padding-bottom: 2px;">Registro</a></li>
                 <li><a href="CONTACTO.html" style="color: #000; text-decoration: none;">Contáctanos</a></li>
             </ul>
         </nav>
     </header>
     <main style="background-image: url('vegetales.png'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 80vh; padding: 40px 20px;">
         <section style="max-width: 800px; margin: 0 auto; background-color: white; border: 4px solid #ff6b35; border-radius: 15px; padding: 40px; box-shadow: 0 8px 16px rgba(0,0,0,0.3);">
-                    
-            <h1 style="text-align: center; color: #2c3e50; font-size: 36px; margin-bottom: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.1);">Salud Vital</h1>
-                    
-            <h2 style="text-align: center; color: #527c88; font-size: 28px; margin-bottom: 30px;">Registro de Usuario</h2>
+            
+            <h2 style="font-family: Montserrat; text-align: center; color: #527c88; font-size: 28px; margin-bottom: 30px;">Registro de Usuario</h2>
                     
             <form style="display: grid; gap: 20px;">
                         
@@ -124,7 +125,7 @@
                 <!-- Alergias o restricciones -->
                 <div style="display: flex; flex-direction: column;">
                     <label style="font-weight: bold; color: #2c3e50; margin-bottom: 5px;">Alergias o Restricciones Alimentarias:</label>
-                    <textarea placeholder="Describe cualquier alergia o restricción alimentaria que tengas..." rows="4" style="padding: 12px; border: 2px solid #d7baad; border-radius: 8px; font-size: 16px; resize: vertical; font-family: Arial, sans-serif;"></textarea>
+                    <textarea placeholder="Describe cualquier alergia o restricción alimentaria que tengas..." rows="4" style="font-family: NunitoSans;padding: 12px; border: 2px solid #d7baad; border-radius: 8px; font-size: 16px; resize: vertical; font-family: Arial, sans-serif;"></textarea>
                 </div>
                         
                 <!-- Cantidad de agua -->
@@ -140,7 +141,7 @@
                 <!-- Foto de alimentos -->
                 <div style="display: flex; flex-direction: column;">
                     <label style="font-weight: bold; color: #2c3e50; margin-bottom: 5px;">Foto de Alimentos Comunes:</label>
-                    <input type="file" accept="image/*" style="padding: 12px; border: 2px solid #d7baad; border-radius: 8px; font-size: 16px; background-color: white;">
+                    <input type="file" accept="image/*" style="font-family: NunitoSans;padding: 12px; border: 2px solid #d7baad; border-radius: 8px; font-size: 16px; background-color: white;">
                 </div>
                         
                 <!-- Hora de comida principal -->
